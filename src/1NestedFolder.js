@@ -40,7 +40,7 @@ const Folder = ({ data }) => {
           {item.type === "folder" ? (
             <>
               <p onClick={() => toggleExpand(item.id)}>
-                 📁{item.name} {expanded[item.id] ? "[-]" : "[+]"}
+                 📁 {item.name} {expanded[item.id] ? "-" : "+"}
               </p>
               {expanded[item.id] && item.children && <Folder data={item.children} />}
             </>

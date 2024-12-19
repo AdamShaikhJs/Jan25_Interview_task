@@ -13,6 +13,7 @@ import OTPGenerator from './9OtpGenrator';
 import NestedDropdown from './10NestedDropdown';
 import NestedDropdownRecursion1 from './11NestedDropdwon';
 import Dropdown from './12Dropdown';
+import TcsL1Task from './13TcsL1Task';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
      <OTPGenerator/>
      <NestedDropdown/>
      <NestedDropdownRecursion1/>
+     <TcsL1Task/>
      {/* <Dropdown/> */}
     </div>
   );
